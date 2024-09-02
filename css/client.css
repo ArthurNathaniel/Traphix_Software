@@ -1,0 +1,51 @@
+.admin_all{
+    margin-block: 70px;
+    padding: 0 5%;
+}
+.clients_all_title {
+    margin-top: 50px;
+}
+
+.clients_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 100%;
+}
+
+.clients_forms {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.clients_forms input {
+    height: 50px;
+    border: 2px solid #a19f9f4e;
+    padding-left: 2%;
+}
+
+.clients_forms input:focus {
+    outline: none;
+}
+
+.clients_forms button {
+height: 50px;
+background-color:  #25624d;
+            color: #fff;
+            text-transform: uppercase;
+            border: none;
+      
+}
+
+@media only screen and (max-width: 1110px) {
+    .clients_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .clients_forms{
+        width: 100%;
+    }
+   
+}

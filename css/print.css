@@ -1,0 +1,121 @@
+  body{
+    overflow-x: hidden;
+  }
+  .navbar {
+      background-color:  #25624d;
+      color: #fff;
+  
+      background-image: url(../images/hero_1.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+   
+  }
+
+  .nav_logo {
+      height: 150px;
+      width: 150px;
+      border: 2px solid;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  background-image: url(../images/logo.png);
+      background-position: center;
+      background-size: cover;
+     
+  }
+
+  .nav_bg{
+    background-color: #00000088;
+    width: 100%;
+    padding: 0 5%;
+    padding-block: 10px;
+  }
+
+  .navbar_details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+ 
+
+  .official {
+      text-align: center;
+  }
+
+  .official button {
+      padding: 15px 45px;
+      background-color:  #25624d;
+      margin-block: 30px;
+      border: none;
+      color: #fff;
+      border-radius: 40px;
+
+  }
+
+  .print_all {
+      padding: 0 5%;
+  }
+
+  .print_grid {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .print_grid p {
+      border-bottom: 2px solid;
+      width: 100%;
+      margin-top: 10px;
+      padding-block: 20px;
+  }
+
+  .print_grid strong {
+      border-bottom: 0px solid;
+      background-color:  #25624d;
+      padding: 10px;
+      color: #fff;
+      margin-right: 30px;
+  }
+
+  .print_btn {
+      margin-top: 70px;
+  }
+
+  .print_btn button {
+      padding: 15px 45px;
+      text-transform: uppercase;
+      background-color:  #25624d;
+      color: #fff;
+  }
+
+  .footer {
+      background-color:  #25624d;
+      color: #fff;
+      padding: 0 5%;
+      padding-block: 30px;
+      text-align: center;
+      margin-top: 50px;
+      width: 100%;
+  }
+.sign{
+    padding: 0 5%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+  @media print {
+      body {
+          -webkit-print-color-adjust: exact;
+          /* For Chrome and Safari */
+          background-color: #ffffff;
+          /* Set the background color */
+      }
+
+      /* Hide the print button when printing */
+      .pp  {
+          display: none;
+      }
+  }

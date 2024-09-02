@@ -1,0 +1,121 @@
+#print-section {
+    padding: 0 5%;
+}
+
+.navbar_top {
+    background-color:  #25624d;
+    color: #fff;
+    padding: 0 5%;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: url(../images/logo.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #fff;
+   
+}
+
+.total_addition {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid;
+}
+
+.tax {
+    display: flex;
+    justify-content: flex-end;
+}
+
+table {
+    margin-block: 50px;
+}
+
+.client_details {
+    margin-top: 50px;
+}
+
+.client_details p {
+    margin-top: 10px;
+}
+
+.payment_details {
+    margin-bottom: 50px;
+}
+
+.terms {
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.terms_title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+.terms_text {
+    margin-top: 30px;
+}
+
+.terms_list {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.last_details {
+    background-color:  #25624d;
+    color: #fff;
+    padding: 0 5%;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.print_client_all {
+    margin-block: 50px;
+    padding: 0 5%;
+}
+
+.print_client_all h1 {
+    margin-bottom: 20px;
+}
+
+.print_client_all p {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        /* For Chrome and Safari */
+        background-color: #ffffff;
+        /* Set the background color */
+    }
+
+    /* Hide the print button when printing */
+    button {
+        display: none;
+    }
+}

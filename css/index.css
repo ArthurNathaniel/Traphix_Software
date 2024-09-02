@@ -1,0 +1,17 @@
+.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home h1{
+    text-transform: uppercase;
+}
+
+.powered{
+    position: absolute;
+    bottom: 10px;
+}
