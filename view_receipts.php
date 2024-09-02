@@ -33,7 +33,7 @@ if (!isset($_SESSION['email'])) {
         }
 
         th {
-            background-color: #25624d;
+            background-color: #303E47;
             color: #fff;
         }
 
@@ -149,11 +149,11 @@ if (!isset($_SESSION['email'])) {
             echo "<td>" . htmlspecialchars($row["amount"]) . "</td>";
             echo "<td>" . htmlspecialchars($row["date"]) . "</td>";
             echo "<td>" . $row["services_prices"]  . "</td>";
-            // echo "<td class='action-links'>
-            //                 <a href='edit_receipt.php?id=" . $row['id'] . "'>Edit</a> |
-            //                 <a href='print_selected_receipt.php?id=" . $row['id'] . "' target='_blank'>Print</a> |
-            //                 <a href='?delete_id=" . $row['id'] . "' onclick=\"return confirm('Are you sure you want to delete this receipt?')\">Delete</a>
-            //             </td>";
+            echo "<td class='action-links'>
+                            <a href='edit_receipt.php?id=" . $row['id'] . "'>Edit</a> |
+                            <a href='print_selected_receipt.php?id=" . $row['id'] . "' target='_blank'>Print</a> |
+                            <a href='?delete_id=" . $row['id'] . "' onclick=\"return confirm('Are you sure you want to delete this receipt?')\">Delete</a>
+                        </td>";
                         echo "<td class='action-links'>
                         <a href='print_selected_receipt.php?id=" . $row['id'] . "' target='_blank'> <i class='fa-solid fa-print'></i> </a> 
                     </td>";

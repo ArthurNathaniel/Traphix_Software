@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luster Cleaning Solutions</title>
+    <title>Traphix Studios</title>
     <?php include "cdn.php"; ?>
     <link rel="stylesheet" href="./css/base.css">
    <style>
@@ -25,7 +25,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .home_all {
@@ -130,7 +130,7 @@
 <body>
     <div class="welcome_all">
         <div class="welcome_title">
-            <h1><span>Luster Cleaning Solutions</span> </h1>
+            <h1><span>Traphix Studios</span> </h1>
             <p>
                 The ultimate mobile tool for financial secretaries to efficiently manage and optimize cash flow.
             </p>
@@ -141,9 +141,7 @@
                     <div class="swiper-slide">
                         <img src="./images/hero_1.jpg" alt="">
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./images/about.jpg" alt="">
-                    </div>
+                 
                 </div>
 
                 <div class="bullets"></div>

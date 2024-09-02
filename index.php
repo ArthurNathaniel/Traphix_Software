@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luster Cleaning Solutions</title>
+    <title>Traphix Studios</title>
     <?php include "cdn.php"; ?>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -21,7 +21,7 @@
             margin-top: 20px;
         }
         .welcome_text h2{
-            color: #25624d;
+            color: #303E47;
             margin-bottom: 20px;
         }
         .home_btn{
@@ -32,7 +32,7 @@
         .home_btn button{
             width: 100%;
             height: 50px;
-            background-color: #25624d;
+            background-color: #303E47;
            color: #fff;
            border: none;
         }
@@ -48,7 +48,7 @@
        <img src="./images/logo.png" alt="">
         <div class="welcome_text">
             <h2 id="typedText"></h2>
-            <p id="typedHeading">Welcome to Luster Cleaning Solution app, your dedicated companion for mastering financial efficiency with ease.</p>
+            <p id="typedHeading">Welcome to Traphix Studio web app, your dedicated companion for mastering financial efficiency with ease.</p>
         </div>
         <div class="home_btn" id="typedHeadings">
             <a href="welcome.php">
@@ -75,7 +75,7 @@
 
         // Typed.js initialization
         var typed = new Typed('#typedText', {
-            strings: ["STAY GREEN, STAY CLEAN"],
+            strings: ["PLANT YOUR IDEAS, GROW YOUR BRAND."],
             typeSpeed: 50, // Typing speed in milliseconds
             backSpeed: 20, // Backspacing speed in milliseconds
             loop: false, // Whether to loop the typing animation

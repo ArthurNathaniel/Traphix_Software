@@ -39,11 +39,7 @@
         <h3> <span class="icon"><i class="fas fa-receipt"></i></span> Expenditure</h3>
         <a href="expenditure_form.php">Generate Expenditure</a>
         <a href="view_expenditure.php">Expenditure Management</a>
-        <h3><span class="icon"><i class="fas fa-user-tie"></i></span>Pay Roll</h3>
-
-        <a href="add_worker.php">Add Workers</a>
-        <a href="mark_attendance.php">Mark Attendance</a>
-        <a href="view_attendance_salary.php">View Salary</a>
+     
 
         <a href="logout.php" class="log">
 

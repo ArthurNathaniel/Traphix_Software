@@ -2,7 +2,7 @@
     overflow-x: hidden;
   }
   .navbar {
-      background-color:  #25624d;
+      background-color:  #303E47;
       color: #fff;
   
       background-image: url(../images/hero_1.jpg);
@@ -48,7 +48,7 @@
 
   .official button {
       padding: 15px 45px;
-      background-color:  #25624d;
+      background-color:  #303E47;
       margin-block: 30px;
       border: none;
       color: #fff;
@@ -74,7 +74,7 @@
 
   .print_grid strong {
       border-bottom: 0px solid;
-      background-color:  #25624d;
+      background-color:  #303E47;
       padding: 10px;
       color: #fff;
       margin-right: 30px;
@@ -87,12 +87,12 @@
   .print_btn button {
       padding: 15px 45px;
       text-transform: uppercase;
-      background-color:  #25624d;
+      background-color:  #303E47;
       color: #fff;
   }
 
   .footer {
-      background-color:  #25624d;
+      background-color:  #303E47;
       color: #fff;
       padding: 0 5%;
       padding-block: 30px;

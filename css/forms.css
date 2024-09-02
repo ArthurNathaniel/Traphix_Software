@@ -52,7 +52,7 @@
     .forms input[type="submit"] {
         width: 100%;
         padding: 10px;
-        background-color: #25624d;
+        background-color: #303E47;
         border: none;
         border-radius: 4px;
         color: #fff;
@@ -62,7 +62,7 @@
     }
     
     .forms input[type="submit"]:hover {
-        background-color: #25624d;
+        background-color: #303E47;
     }
     
     table {

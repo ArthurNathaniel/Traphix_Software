@@ -32,7 +32,7 @@ if (!isset($_SESSION['email'])) {
         }
 
         th {
-            background-color: #25624d;
+            background-color: #303E47;
             color: #fff;
         }
 
